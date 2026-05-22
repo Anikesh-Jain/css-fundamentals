@@ -1,0 +1,10 @@
+div {
+    height: 250px;
+    width: 500px;
+    font-size: 100px;
+    position: fixed;
+    top: 100px;
+    right: 0;
+    background-image: url("lovenature_photo.jpg");
+    background-size: cover;
+}

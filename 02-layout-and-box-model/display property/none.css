@@ -1,0 +1,25 @@
+#one {
+    height: 100px;
+    width: 100px;
+    padding: 25px;
+    margin: 25px;
+    background-color: blue;
+    display: inline-block;
+}
+#two {
+    height: 100px;
+    width: 100px;
+    padding: 25px;
+    margin: 25px;
+    background-color: green;
+    display: none;
+}
+#three {
+    height: 100px;
+    width: 100px;
+    padding: 25px;
+    margin: 25px;
+    background-color: red;
+    display: inline-block;
+}
+/* none basically remove the element */

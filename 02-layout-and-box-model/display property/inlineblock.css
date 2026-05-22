@@ -1,0 +1,27 @@
+#one {
+    height: 100px;
+    width: 100px;
+    padding: 25px;
+    margin: 25px;
+    background-color: blue;
+    display: inline-block;
+}
+#two {
+    height: 100px;
+    width: 100px;
+    padding: 25px;
+    margin: 25px;
+    background-color: green;
+    display: inline-block;
+}
+#three {
+    height: 100px;
+    width: 100px;
+    padding: 25px;
+    margin: 25px;
+    background-color: red;
+    display: inline-block;
+}
+/* we use inline block display instead of inline
+ to give top and bottom margin if we use inline 
+ then top and bottom margin will be removed */

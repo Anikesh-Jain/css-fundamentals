@@ -1,0 +1,22 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border: 5px solid red;
+    text-align: center;
+    color: blueviolet;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
+}
+div:hover {
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 20px;
+}
+div:active {
+    background-color: blueviolet;
+    color: pink;
+    font-size: 25px;
+}

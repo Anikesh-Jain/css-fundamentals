@@ -1,0 +1,24 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border: 5px solid red;
+    text-align: center;
+    color: blueviolet;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    transition: all 2s ease-in 1s;
+}
+div:hover {
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 20px;
+    transform: rotate(360deg);
+
+}
+div:active {
+    background-color: blueviolet;
+    color: pink;
+    font-size: 25px;
+}

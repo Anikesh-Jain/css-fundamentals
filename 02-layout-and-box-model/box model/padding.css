@@ -1,0 +1,16 @@
+#one {
+    height: 100px;
+    width: 100px;
+    border: 5px dashed red;
+    background-color: rgb(3, 161, 253);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+/* shortcut for padding */
+#two {
+    border: 5px dashed red;
+    background-color: rgb(255, 238, 0);
+    padding: 25px 25px 25px 25px;
+}

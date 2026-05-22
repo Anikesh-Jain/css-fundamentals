@@ -1,0 +1,26 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border: 5px solid red;
+    text-align: center;
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    color: blueviolet;
+    animation: colorAnimate 2s ease-in 1s infinite normal;
+}
+@keyframes colorAnimate {
+    0% { left : 0px;
+        background-color: rgb(226, 43, 205);
+        color: aqua;
+    }
+    50% { 
+    background-color: aqua;
+    color: blueviolet;
+    }
+    100% { right : 1000px;
+    background-color: rgb(4, 0, 255);
+    color: rgb(86, 226, 43);
+    }
+}

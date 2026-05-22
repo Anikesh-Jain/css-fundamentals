@@ -1,0 +1,11 @@
+#p1 {
+    text-align: left;
+    /* left=start */
+}
+#p2 {
+    text-align: right;
+    /* right=end */
+}
+#p3 {
+    text-align: center;
+}

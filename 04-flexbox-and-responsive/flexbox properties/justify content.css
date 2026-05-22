@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+}
+div {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#container {
+    height: 200px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* justify contents  are 
+    1. flex start (left to right but in the start)
+    2. flex end (left to right but in the end)
+    3. center (all box in center)
+    4. space around  (the space left in the container are filled between the boxes) */
+}
+#box1 {
+    background-color: aqua;
+}
+#box2 {
+    background-color: rgb(255, 34, 0);
+}
+#box3 {
+    background-color: rgb(238, 255, 0);
+}
+#box4 {
+    background-color: rgb(0, 255, 55);
+}
+#box5 {
+    background-color: rgb(255, 0, 212);
+}

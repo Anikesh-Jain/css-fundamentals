@@ -1,0 +1,23 @@
+.loader {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid grey;
+    border-top: 5px solid black;
+    position: absolute;
+    top: 250px;
+    left: 500px;
+    animation: loader 2s ease-in-out 1s infinite normal;
+}
+@keyframes loader {
+    from {
+        transform: rotate(0deg);
+        border: 5px solid grey;
+        border-top: 5px solid black;
+    }
+    to {
+        transform: rotate(360deg);
+        border: 5px solid black;
+        border-top: 5px solid grey;
+} 
+}

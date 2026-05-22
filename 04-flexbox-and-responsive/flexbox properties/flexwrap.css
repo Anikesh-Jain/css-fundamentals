@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+}
+div {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#container {
+    height: 200px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    /* flex wrap are 
+    1. wrap (default)
+    2. nowrap end (no space)
+    3. wrap reversed (opposite start)  */
+}
+#box1 {
+    background-color: aqua;
+}
+#box2 {
+    background-color: rgb(255, 34, 0);
+}
+#box3 {
+    background-color: rgb(238, 255, 0);
+}
+#box4 {
+    background-color: rgb(0, 255, 55);
+}
+#box5 {
+    background-color: rgb(255, 0, 212);
+}

@@ -1,0 +1,21 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border: 5px solid red;
+    text-align: center;
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    color: blueviolet;
+    animation-name: colorAnimate ;
+    animation-duration: 5s;
+    animation-timing-function: step(10);
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes colorAnimate {
+    from { left : 0px;}
+    to { right : 100px;}
+}

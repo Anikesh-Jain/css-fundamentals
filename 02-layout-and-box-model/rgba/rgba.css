@@ -1,0 +1,24 @@
+#one {
+    height: 100px;
+    width: 100px;
+    padding: 25px;
+    margin: 25px;
+    background-color: rgba(0 , 0 , 255 , 0.5);
+    display: inline-block;
+}
+#two {
+    height: 100px;
+    width: 100px;
+    padding: 25px;
+    margin: 25px;
+    background-color: rgba(0 , 0 , 255 , 0.75);
+    display: inline-block;
+}
+#three {
+    height: 100px;
+    width: 100px;
+    padding: 25px;
+    margin: 25px;
+    background-color: rgba(0 , 0 , 255 , 1);
+    display: inline-block;
+}

@@ -1,0 +1,28 @@
+#one {
+    height: 100px;
+    width: 100px;
+    padding: 25px;
+    margin: 25px;
+    background-color: blue;
+    display: inline-block;
+}
+#two {
+    height: 100px;
+    width: 100px;
+    padding: 25px;
+    margin: 25px;
+    background-color: green;
+    visibility: hidden;
+}
+#three {
+    height: 100px;
+    width: 100px;
+    padding: 25px;
+    margin: 25px;
+    background-color: red;
+    display: inline-block;
+}
+/* visibility did not remove the element its 
+reservedits space but none basically remove
+ the element adn its also does not reserved 
+ the space for the element */

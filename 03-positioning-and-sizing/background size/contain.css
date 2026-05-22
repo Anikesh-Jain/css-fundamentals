@@ -1,0 +1,14 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 10px solid black;
+    display: inline-block;
+}
+#box1 {
+    background-size: contain;
+    background-image: url("car_photo.jpg");
+}
+/* cover is highg preferred
+contain is least preferred
+auto is the default background size */

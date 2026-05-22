@@ -1,0 +1,15 @@
+#one {
+    border-width: 5px;
+    background-color: rgb(3, 161, 253);
+    border-color: rgb(204, 0, 255);
+    border-style: solid;
+    text-align: center;
+}
+/* shortcut for border */
+#two {
+    border: 5px dashed red;
+    background-color: rgb(255, 238, 0);
+    text-align: center;
+    /* boder radius can be in px and in % too */
+    border-radius: 10%;
+}

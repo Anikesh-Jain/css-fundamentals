@@ -1,0 +1,15 @@
+#container {
+    height: 500px;
+    width: 500px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div {
+    height: 250px;
+    width: 250px;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+}
